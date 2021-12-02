@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net20</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>v1.0.5: Accept null text in ZPLCommands.TextWrite</PackageReleaseNotes>
+    <PackageId>SharpZebra.rkone</PackageId>
+    <Authors>rkone</Authors>
+    <Company>rkone</Company>
+    <Product>SharpZebra</Product>
+    <Description>A .net library that simplifies printing to Zebra printers in their native EPL2/ZPL languages without needing to know EPL2 or ZPL.  
+NEW: Check out SharpZebraStandard - a NetStandard2.0 version for those using only networked label printers.</Description>
+    <PackageTags>Barcode Zebra Label Printer</PackageTags>
+    <Copyright></Copyright>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>SharpZebraSigning.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+ 
+</Project>
